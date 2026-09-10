@@ -67,6 +67,9 @@ your browser, and you can download copies for annotation or offline reading.
 - Week 1, Class A, *Course Orientation and the Data Science Process*
   - [Lecture slides](week-01/Class%20A/class-01-slides.pdf)
   - [Lecture notes](week-01/Class%20A/class-01-notes.pdf)
+- Week 1, Class B, *Data Summarization*
+  - [Lecture slides](week-01/Class%20B/class-02-slides.pdf)
+  - [Lecture notes](week-01/Class%20B/class-02-notes.pdf)
 
 Week 1 Class B, practical activity handouts, and the materials for Weeks 2–12
 are not yet published here. They appear in the course plan below so you can see
