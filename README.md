@@ -17,7 +17,7 @@ account.
 
 This guide describes the whole course, including material awaiting publication.
 The [download list](#available-materials) identifies the documents you can open
-now. For an enrolled student, the [syllabus](assets/planning/syllabus.pdf) for
+now. For an enrolled student, the [syllabus](assets/syllabus.pdf) for
 your offering is the authority on dates, meeting details, assessment requirements,
 and policies. Check that it matches the offering identified by your instructor.
 
@@ -63,7 +63,7 @@ later in the course. Guided examples introduce the tools before assessed use.
 Released teaching documents are provided as PDFs. GitHub can preview them in
 your browser, and you can download copies for annotation or offline reading.
 
-- [Course syllabus](assets/planning/syllabus.pdf)
+- [Course syllabus](assets/syllabus.pdf)
 - Week 1, Class A, *Course Orientation and the Data Science Process*
   - [Lecture slides](week-01/Class%20A/class-01-slides.pdf)
   - [Lecture notes](week-01/Class%20A/class-01-notes.pdf)
@@ -80,7 +80,7 @@ released.
 The folders follow the teaching sequence. Within each `week-XX` folder,
 `Class A` and `Class B` are the first and second class of that teaching week.
 `Assessment` is the location for released lab and assignment handouts.
-Course-wide documents are under `assets/planning`. A folder may exist before its
+Course-wide documents are under `assets/`. A folder may exist before its
 documents are available; an empty folder does not add a preparation or submission
 requirement.
 
