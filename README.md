@@ -67,15 +67,16 @@ your browser, and you can download copies for annotation or offline reading.
 - Week 1, Class A, *Course Orientation and the Data Science Process*
   - [Lecture slides](week-01/Class%20A/class-01-slides.pdf)
   - [Lecture notes](week-01/Class%20A/class-01-notes.pdf)
-- Week 1, Class B, *Data Summarization*
+- Week 1, Class B, *Summarizing Data*
   - [Lecture slides](week-01/Class%20B/class-02-slides.pdf)
   - [Lecture notes](week-01/Class%20B/class-02-notes.pdf)
-  - [Laboratory](week-01/Assessment/week-01-lab.pdf)
+  - [Integrated Lab 01 · Atlantic environmental conditions](week-01/Assessment/week-01-lab.pdf)
 
-Week 1 Class B, practical activity handouts, and the materials for Weeks 2–12
-are not yet published here. They appear in the course plan below so you can see
-how the subjects fit together. Download links will be added as documents are
-released.
+The complete Week 1 teaching set is available above, including both classes and
+the integrated lab. Materials for Weeks 2–12 and the four assignment handouts
+are not yet published here. The course plan below describes those later topics
+so you can see how they fit together. Download links will be added as documents
+are released.
 
 The folders follow the teaching sequence. Within each `week-XX` folder,
 `Class A` and `Class B` are the first and second class of that teaching week.
