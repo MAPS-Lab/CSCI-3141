@@ -288,8 +288,9 @@ assignments/
 ```
 
 Follow each handout for the files inside its folder. These directories belong
-to your own work repository. Submit through the announced private channel;
-course-repository issues and pull requests are not assessment submissions.
+to your own work repository. Each one carries its own `README.md`, which is
+where you record the version to be graded; course-repository issues and pull
+requests are not assessment submissions.
 
 ### Develop privately
 
@@ -301,10 +302,10 @@ public too.
 
 ### Submit a fixed version
 
-By the deadline, submit the full commit SHA and its commit URL through the
-announced private channel. The SHA identifies the exact version being assessed.
-A branch link or movable tag is insufficient because its destination can change.
-Keep the submitted commit reachable.
+By the deadline, record the full commit SHA and its immutable commit or release
+URL in that directory's `README.md` and push it. The marker reads that README
+and assesses the snapshot it names. A branch link or movable tag is insufficient
+because its destination can change. Keep the submitted commit reachable.
 
 Preserve recorded assessment history permanently. Do not amend, rebase, squash,
 delete, replace, or force-push those commits, move submitted tags, or fabricate
@@ -313,8 +314,8 @@ commit private information, contact the instructor for an approved correction.
 
 Git records a version's contents; its author dates do not prove when you
 submitted the work, and Git alone does not establish authorship or prevent
-history changes. The submission receipt, recorded SHA, and instructor-retained
-snapshot provide the independent assessment reference.
+history changes. The pushed README record, its recorded SHA, and the
+instructor-retained snapshot provide the independent assessment reference.
 
 ### Publish after release
 
