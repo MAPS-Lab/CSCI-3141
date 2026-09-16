@@ -334,7 +334,8 @@ equivalent private repository option with the same evidence and rubric.
 Discussing concepts is encouraged. Assessed work must demonstrate your own
 understanding. Do not share answers, code, analysis files, answer-producing
 prompts, or solution steps unless written instructions authorize collaboration.
-Keep questions about your own unreleased solution in a private channel.
+Ask about your own unreleased solution privately, through Microsoft Teams or
+e-mail to the instructor, rather than in a shared space where classmates read it.
 
 The syllabus permits generative AI for private study planning and practice,
 provided you check outputs against course sources and protect private or
