@@ -74,12 +74,20 @@ your browser, and you can download copies for annotation or offline reading.
 - Week 2, Class A, *Data Preprocessing Foundations*
   - [Lecture slides](week-02/Class%20A/class-03-slides.pdf)
   - [Lecture notes](week-02/Class%20A/class-03-notes.pdf)
+- Week 2, Class B, *Cleaning and Transforming Data*
+  - [Lecture slides](week-02/Class%20B/class-04-slides.pdf)
+  - [Lecture notes](week-02/Class%20B/class-04-notes.pdf)
+  - [Integrated Lab 02 · Cleaning water and air quality data](week-02/Assessment/week-02-lab.pdf)
+- Week 3, Class A, *Preprocessing and Visualizing Data*
+  - [Lecture slides](week-03/Class%20A/class-05-slides.pdf)
+  - [Lecture notes](week-03/Class%20A/class-05-notes.pdf)
 
-The complete Week 1 teaching set is available above, including both classes and
-the integrated lab, together with Week 2 Class A. The remaining Week 2 documents,
-Weeks 3–12, and the four assignment handouts are not yet published here. The
-course plan below describes those later topics so you can see how they fit
-together. Download links will be added as documents are released.
+The complete Week 1 and Week 2 teaching sets are available above, each with both
+classes and its integrated lab, together with Week 3 Class A. The remaining
+Week 3 documents, Weeks 4–12, and the four assignment handouts are not yet
+published here. The course plan below describes those later topics so you can
+see how they fit together. Download links will be added as documents are
+released.
 
 The folders follow the teaching sequence. Within each `week-XX` folder,
 `Class A` and `Class B` are the first and second class of that teaching week.
