@@ -81,11 +81,16 @@ your browser, and you can download copies for annotation or offline reading.
 - Week 3, Class A, *Preprocessing and Visualizing Data*
   - [Lecture slides](week-03/Class%20A/class-05-slides.pdf)
   - [Lecture notes](week-03/Class%20A/class-05-notes.pdf)
+- Week 3, Class B, *Visualizing Data*
+  - [Lecture slides](week-03/Class%20B/class-06-slides.pdf)
+  - [Lecture notes](week-03/Class%20B/class-06-notes.pdf)
+  - [Integrated Lab 03 · Visualizing changing Canadian environments](week-03/Assessment/week-03-lab.pdf)
+  - [Assignment 01 · Importing the Canadian Air Occurrence Record](week-03/Assessment/assignment-01.pdf)
 
-The complete Week 1 and Week 2 teaching sets are available above, each with both
-classes and its integrated lab, together with Week 3 Class A. The remaining
-Week 3 documents, Weeks 4–12, and the four assignment handouts are not yet
-published here. The course plan below describes those later topics so you can
+The complete teaching sets for Weeks 1–3 are available above, each with both
+classes and its integrated lab. Assignment 01 is also available. Weeks 4–12
+and Assignments 02–04 are not yet published here. The course plan below
+describes those later topics so you can
 see how they fit together. Download links will be added as documents are
 released.
 
@@ -255,6 +260,11 @@ alongside the instructions for each assessment.
 | Cumulative final examination | 25% |
 
 The best 10 of 12 individual lab results count toward the lab component.
+Labs are due seven calendar days after the integrated session, before the
+next usual Class B start time. The current syllabus specifies 16:05 Halifax
+time, including weeks without a scheduled meeting. Assignment release and due
+dates follow the syllabus; they do not use the weekly lab deadline.
+
 Labs provide regular practice with the current methods. The four assignments
 ask you to assemble a more complete analysis, with increasing responsibility
 for preparation, methodological choices, interpretation, and reproducibility.
@@ -267,7 +277,9 @@ for preparation, methodological choices, interpretation, and reproducibility.
 | 4 | Descriptive modelling solution | 15% |
 
 Use the released handout for the dataset, required files, format, rubric, and
-authorized tools. Its required files must open and reproduce the analysis.
+authorized tools. Assessment handouts state what to demonstrate; students
+must write and justify their own analysis. Worked teaching examples are in the
+lecture materials. The submitted files must open and reproduce the analysis.
 Submission dates belong to the syllabus and the instructions for your offering;
 this course guide does not set a separate calendar.
 
@@ -310,10 +322,13 @@ public too.
 
 ### Submit a fixed version
 
-By the deadline, record the full commit SHA and its immutable commit or release
-URL in that directory's `README.md` and push it. The marker reads that README
-and assesses the snapshot it names. A branch link or movable tag is insufficient
-because its destination can change. Keep the submitted commit reachable.
+First commit the completed report, source, and supporting evidence. Record that
+commit's full SHA and commit URL in the assessment directory's `README.md`,
+then commit the README update separately. A commit cannot contain its own SHA.
+Push both commits to the default branch of your private repository by the
+deadline. The marker reads that README and assesses the snapshot it names.
+A branch link or movable tag is insufficient because its destination can
+change. Keep the submitted commit reachable.
 
 Preserve recorded assessment history permanently. Do not amend, rebase, squash,
 delete, replace, or force-push those commits, move submitted tags, or fabricate
@@ -328,9 +343,13 @@ instructor-retained snapshot provide the independent assessment reference.
 ### Publish after release
 
 After the submission deadline **and when the instructor opens sharing**, publish
-the same submitted commit and its history in your public portfolio. Preserve
-its SHA when merging from the private work repository. Present that version in
-class, and label any later improvements separately so a reader can distinguish
+the same submitted commit and its history in your public portfolio. First inspect
+every file in that commit and its reachable ancestors. Every assessment present
+there must have passed its deadline and been released for sharing by the
+instructor. Otherwise keep the repository private and use the submitted private
+snapshot until publication is authorized. Do not rewrite history to remove
+unreleased work. Preserve its SHA when merging from the private work repository.
+Present that version in class, and label any later improvements separately so a reader can distinguish
 the submission from subsequent work.
 
 Grades and feedback remain private. Where accommodation, safety, privacy,
