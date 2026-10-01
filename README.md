@@ -86,10 +86,14 @@ your browser, and you can download copies for annotation or offline reading.
   - [Lecture notes](week-03/Class%20B/class-06-notes.pdf)
   - [Integrated Lab 03 · Visualizing changing Canadian environments](week-03/Assessment/week-03-lab.pdf)
   - [Assignment 01 · Importing the Canadian Air Occurrence Record](week-03/Assessment/assignment-01.pdf)
+- Week 4, Class A, *Manipulating and Visualizing Data*
+  - [Lecture slides](week-04/Class%20A/class-07-slides.pdf)
+  - [Lecture notes](week-04/Class%20A/class-07-notes.pdf)
 
 The complete teaching sets for Weeks 1–3 are available above, each with both
-classes and its integrated lab. Assignment 01 is also available. Weeks 4–12
-and Assignments 02–04 are not yet published here. The course plan below
+classes and its integrated lab. Assignment 01 and Week 4, Class A are also
+available. The rest of Week 4, Weeks 5–12 and Assignments 02–04 are not yet
+published here. The course plan below
 describes those later topics so you can
 see how they fit together. Download links will be added as documents are
 released.
