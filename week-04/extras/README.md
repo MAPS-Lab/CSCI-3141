@@ -11,5 +11,3 @@ Notebooks used live in class. Open them in JupyterLab or VS Code and run the cel
 - Python: pandas, NumPy, Matplotlib, seaborn, scikit-learn, Jupyter and nbconvert.
 - R: dplyr, ggplot2, knitr, rmarkdown, and the IRkernel package to run R inside Jupyter (`install.packages("IRkernel"); IRkernel::installspec()`).
 - PDF rendering in Class 08 also needs Pandoc and XeLaTeX.
-
-All player, hour, achievement and game values are fictional teaching data.

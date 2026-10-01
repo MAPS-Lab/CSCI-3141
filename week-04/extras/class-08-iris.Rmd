@@ -24,8 +24,7 @@ dat <- iris
 
 How do sepal lengths vary within and between the three species in this
 sample? Iris contains 150 flowers, 50 of each species, with measurements
-in centimetres. These historical example data are not a random sample of
-all iris populations.
+in centimetres.
 
 The mean sepal length is `r sprintf("%.2f", mean(dat$Sepal.Length))` cm,
 with sample standard deviation `r sprintf("%.3f", sd(dat$Sepal.Length))` cm.

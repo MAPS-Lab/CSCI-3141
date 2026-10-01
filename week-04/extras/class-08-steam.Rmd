@@ -1,5 +1,5 @@
 ---
-title: "Completion rates in a synthetic game dataset"
+title: "Completion rates by game"
 author: "Course example"
 date: ""
 output:
@@ -24,8 +24,7 @@ knitr::opts_chunk$set(
 ## Question and data
 
 How do completion rates compare among games with at least the selected
-number of players? All six rows are synthetic teaching values, not
-measurements from Steam. A row represents one game; `completed` is the
+number of players? A row represents one game; `completed` is the
 number of its listed players who completed it. `achievements` counts
 available achievements and is not the completion-rate denominator.
 
@@ -57,7 +56,7 @@ knitr::kable(shown, row.names = FALSE, digits = 3)
 ```
 
 The completion rate divides `completed` by `players`. Counts and rates
-describe different aspects of these fictional records.
+describe different aspects of these records.
 
 ```{r rates, fig.cap="Completion rates for eligible games."}
 if (nrow(cleaned) == 0) {
@@ -82,8 +81,7 @@ if (nrow(cleaned) > 0) {
 ```
 
 Filtering changes coverage, not the underlying per-game rate. When games
-qualify, the player-count plot makes their denominators visible. These values support
-neither population estimates nor claims about real players or games.
+qualify, the player-count plot makes their denominators visible.
 
 ## Reproduction record
 
