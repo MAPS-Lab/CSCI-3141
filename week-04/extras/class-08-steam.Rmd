@@ -1,0 +1,97 @@
+---
+title: "Completion rates in a synthetic game dataset"
+author: "Course example"
+date: ""
+output:
+  pdf_document:
+    latex_engine: xelatex
+    fig_caption: true
+  html_document: default
+params:
+  datafile: "steam_achievements.csv"
+  minplayers: 100
+---
+
+```{r setup, include=FALSE}
+library(ggplot2)
+knitr::opts_chunk$set(
+  echo = FALSE, cache = FALSE, error = FALSE,
+  warning = TRUE, message = FALSE,
+  fig.width = 6, fig.height = 3, out.width = "90%"
+)
+```
+
+## Question and data
+
+How do completion rates compare among games with at least the selected
+number of players? All six rows are synthetic teaching values, not
+measurements from Steam. A row represents one game; `completed` is the
+number of its listed players who completed it. `achievements` counts
+available achievements and is not the completion-rate denominator.
+
+```{r prepare}
+raw <- read.csv(params$datafile, stringsAsFactors = FALSE)
+required <- c("game", "players", "completed", "achievements")
+stopifnot(all(required %in% names(raw)), !anyNA(raw[required]))
+counts <- raw[c("players", "completed", "achievements")]
+stopifnot(all(vapply(counts, is.numeric, logical(1))))
+stopifnot(all(is.finite(as.matrix(counts))))
+stopifnot(all(counts >= 0), all(counts == floor(as.matrix(counts))))
+stopifnot(all(raw$players > 0), all(raw$completed <= raw$players))
+stopifnot(!anyDuplicated(raw$game), all(nzchar(raw$game)))
+stopifnot(length(params$minplayers) == 1,
+          is.finite(params$minplayers), params$minplayers >= 0)
+cleaned <- raw[raw$players >= params$minplayers, ]
+cleaned$rate <- cleaned$completed / cleaned$players
+cleaned <- cleaned[order(-cleaned$rate, cleaned$game), ]
+```
+
+## Coverage and comparison
+
+The threshold is at least `r params$minplayers` players per game.
+This retains `r nrow(cleaned)` of `r nrow(raw)` games.
+
+```{r table}
+shown <- cleaned[c("game", "players", "completed", "achievements", "rate")]
+knitr::kable(shown, row.names = FALSE, digits = 3)
+```
+
+The completion rate divides `completed` by `players`. Counts and rates
+describe different aspects of these fictional records.
+
+```{r rates, fig.cap="Completion rates for eligible games."}
+if (nrow(cleaned) == 0) {
+  cat("No games meet this threshold. There are no rates to plot.\n")
+} else {
+  cleaned$game <- factor(cleaned$game, levels = rev(cleaned$game))
+  print(ggplot(cleaned, aes(rate, game)) +
+    geom_col(fill = "#D4A017") +
+    scale_x_continuous(limits = c(0, 1)) +
+    labs(x = "Completed / players", y = "Game") +
+    theme_minimal(base_size = 11))
+}
+```
+
+```{r players, fig.cap="Player counts for eligible games."}
+if (nrow(cleaned) > 0) {
+  print(ggplot(cleaned, aes(players, game)) +
+    geom_col(fill = "#777777") +
+    labs(x = "Number of players", y = "Game") +
+    theme_minimal(base_size = 11))
+}
+```
+
+Filtering changes coverage, not the underlying per-game rate. When games
+qualify, the player-count plot makes their denominators visible. These values support
+neither population estimates nor claims about real players or games.
+
+## Reproduction record
+
+```{r versions}
+cat("Input", params$datafile, "\n")
+cat("Input MD5", unname(tools::md5sum(params$datafile)), "\n")
+cat("R", as.character(getRversion()), "\n")
+for (pkg in c("ggplot2", "knitr", "rmarkdown")) {
+  cat(pkg, as.character(packageVersion(pkg)), "\n")
+}
+```

@@ -1,0 +1,88 @@
+---
+title: "Iris sepal lengths"
+author: "Course example"
+date: ""
+output:
+  pdf_document:
+    latex_engine: xelatex
+    fig_caption: true
+  html_document: default
+---
+
+```{r setup, include=FALSE}
+library(ggplot2)
+library(dplyr)
+knitr::opts_chunk$set(
+  echo = FALSE, cache = FALSE, error = FALSE,
+  warning = TRUE, message = FALSE,
+  fig.width = 6, fig.height = 3, out.width = "90%"
+)
+dat <- iris
+```
+
+## Question and data
+
+How do sepal lengths vary within and between the three species in this
+sample? Iris contains 150 flowers, 50 of each species, with measurements
+in centimetres. These historical example data are not a random sample of
+all iris populations.
+
+The mean sepal length is `r sprintf("%.2f", mean(dat$Sepal.Length))` cm,
+with sample standard deviation `r sprintf("%.3f", sd(dat$Sepal.Length))` cm.
+
+## A compact summary
+
+```{r summary}
+summary_table <- dat |>
+  group_by(Species) |>
+  summarise(
+    n = n(), Sepal_cm = mean(Sepal.Length),
+    Petal_cm = mean(Petal.Length), .groups = "drop"
+  )
+knitr::kable(summary_table, row.names = FALSE, digits = 3)
+```
+
+The table reports means in centimetres. Each species has the same sample
+size, but a mean alone does not describe the within-species spread.
+
+## Two views of the variation
+
+```{r histogram, fig.cap="Sepal length distribution."}
+edges <- seq(4.25, 8.25, length.out = 11)
+ggplot(dat, aes(Sepal.Length)) +
+  geom_histogram(
+    breaks = edges, closed = "left",
+    fill = "#D4A017", colour = "white"
+  ) +
+  labs(x = "Sepal length (cm)", y = "Number of flowers") +
+  theme_minimal(base_size = 11)
+```
+
+Figure 1 uses 0.4 cm bins from 4.25 to 8.25 cm. The pooled histogram
+combines species. Its bin edges avoid the recorded
+0.1 cm measurement grid, so no observation lies on an internal edge.
+
+```{r boxplot, fig.cap="Sepal lengths by species."}
+ggplot(dat, aes(Species, Sepal.Length)) +
+  geom_boxplot(fill = "#D4A017", width = 0.55) +
+  labs(x = "Species", y = "Sepal length (cm)") +
+  theme_minimal(base_size = 11)
+```
+
+Figure 2 uses linear quartiles and 1.5-IQR whiskers.
+Setosa has the lowest sample median, while the species' ranges overlap.
+The box plots reveal variation hidden by the table. They do not establish
+that species alone causes a difference in sepal length.
+
+## Reproduction record
+
+Data are the built-in R `iris` dataset. The histogram uses the explicit
+edges above; ggplot2 uses linearly interpolated quartiles for the boxes.
+No random operation or cached analysis is used.
+
+```{r versions}
+cat("R", as.character(getRversion()), "\n")
+for (pkg in c("ggplot2", "dplyr", "knitr", "rmarkdown")) {
+  cat(pkg, as.character(packageVersion(pkg)), "\n")
+}
+```

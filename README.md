@@ -89,11 +89,15 @@ your browser, and you can download copies for annotation or offline reading.
 - Week 4, Class A, *Manipulating and Visualizing Data*
   - [Lecture slides](week-04/Class%20A/class-07-slides.pdf)
   - [Lecture notes](week-04/Class%20A/class-07-notes.pdf)
+- Week 4, Class B, *Reproducible Reporting*
+  - [Lecture slides](week-04/Class%20B/class-08-slides.pdf)
+  - [Lecture notes](week-04/Class%20B/class-08-notes.pdf)
+  - [Integrated Lab 04 · A sustainable communities evidence brief](week-04/Assessment/week-04-lab.pdf)
+  - [Class notebooks (R and Python)](week-04/extras/)
 
-The complete teaching sets for Weeks 1–3 are available above, each with both
-classes and its integrated lab. Assignment 01 and Week 4, Class A are also
-available. The rest of Week 4, Weeks 5–12 and Assignments 02–04 are not yet
-published here. The course plan below
+The complete teaching sets for Weeks 1–4 are available above, each with both
+classes and its integrated lab. Assignment 01 is also available. Weeks 5–12
+and Assignments 02–04 are not yet published here. The course plan below
 describes those later topics so you can
 see how they fit together. Download links will be added as documents are
 released.
@@ -101,6 +105,7 @@ released.
 The folders follow the teaching sequence. Within each `week-XX` folder,
 `Class A` and `Class B` are the first and second class of that teaching week.
 `Assessment` is the location for released lab and assignment handouts.
+`extras` holds the notebooks run in class, where a week has them.
 Course-wide documents are under `assets/`. A folder may exist before its
 documents are available; an empty folder does not add a preparation or submission
 requirement.
