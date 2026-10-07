@@ -94,9 +94,16 @@ your browser, and you can download copies for annotation or offline reading.
   - [Lecture notes](week-04/Class%20B/class-08-notes.pdf)
   - [Integrated Lab 04 · A sustainable communities evidence brief](week-04/Assessment/week-04-lab.pdf)
   - [Class notebooks (R and Python)](week-04/extras/)
+- Week 5, Class A, *Predictive Analytics*
+  - [Lecture slides](week-05/Class%20A/class-09-slides.pdf)
+  - [Lecture notes](week-05/Class%20A/class-09-notes.pdf)
+- Week 5, Class B, *Evaluation Metrics*
+  - [Lecture slides](week-05/Class%20B/class-10-slides.pdf)
+  - [Lecture notes](week-05/Class%20B/class-10-notes.pdf)
+  - [Integrated Lab 05 · Predicting environmental outcomes](week-05/Assessment/week-05-lab.pdf)
 
-The complete teaching sets for Weeks 1–4 are available above, each with both
-classes and its integrated lab. Assignment 01 is also available. Weeks 5–12
+The complete teaching sets for Weeks 1–5 are available above, each with both
+classes and its integrated lab. Assignment 01 is also available. Weeks 6–12
 and Assignments 02–04 are not yet published here. The course plan below
 describes those later topics so you can
 see how they fit together. Download links will be added as documents are
