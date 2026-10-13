@@ -101,16 +101,21 @@ your browser, and you can download copies for annotation or offline reading.
   - [Lecture slides](week-05/Class%20B/class-10-slides.pdf)
   - [Lecture notes](week-05/Class%20B/class-10-notes.pdf)
   - [Integrated Lab 05 · Predicting environmental outcomes](week-05/Assessment/week-05-lab.pdf)
+- Week 6, Class A, *Prediction Models*
+  - [Lecture slides](week-06/Class%20A/class-11-slides.pdf)
+  - [Lecture notes](week-06/Class%20A/class-11-notes.pdf)
 
 The complete teaching sets for Weeks 1–5 are available above, each with both
-classes and its integrated lab. Assignment 01 is also available. Weeks 6–12
-and Assignments 02–04 are not yet published here. The course plan below
+classes and its integrated lab. Week 6's slides and lecture notes and
+Assignment 01 are also available. Lab 06, Weeks 7–12 and Assignments 02–04 are
+not yet published here. The course plan below
 describes those later topics so you can
 see how they fit together. Download links will be added as documents are
 released.
 
 The folders follow the teaching sequence. Within each `week-XX` folder,
-`Class A` and `Class B` are the first and second class of that teaching week.
+`Class A` and `Class B` are the first and second class of that teaching week;
+Week 6 meets once and has only `Class A`.
 `Assessment` is the location for released lab and assignment handouts.
 `extras` holds the notebooks run in class, where a week has them.
 Course-wide documents are under `assets/`. A folder may exist before its
@@ -175,10 +180,10 @@ deadlines. Pace and examples may be adjusted through course announcements.
    introduce two different kinds of prediction problem. The classes examine
    their corresponding performance measures, building the vocabulary needed to
    judge a model's results.
-6. **Week 6 · Predictive methods.** The data science process is revisited through
-   predictive metrics, followed by k-nearest neighbours, linear regression, and
-   linear discriminant analysis. Attention moves from describing a dataset to
-   fitting a method and interpreting its predictions.
+6. **Week 6 · Predictive methods.** This week meets once. The class introduces
+   k-nearest neighbours, linear regression, and linear discriminant analysis.
+   Attention moves from describing a dataset to fitting a method and
+   interpreting its predictions.
 7. **Week 7 · Midterm and support vector machines.** The first meeting is the
    midterm examination. The second introduces support vector machines and
    continues the predictive modelling sequence. Assignment 2 is released in
