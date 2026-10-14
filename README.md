@@ -64,7 +64,7 @@ Released teaching documents are provided as PDFs. GitHub can preview them in
 your browser, and you can download copies for annotation or offline reading.
 
 - [Course syllabus](assets/syllabus.pdf)
-- Cheatsheets, *The Calls This Course Uses*
+- Cheatsheets
   - [R cheatsheet](cheatsheets/r-cheatsheet.pdf)
   - [Python cheatsheet](cheatsheets/python-cheatsheet.pdf)
 - Week 1, Class A, *Course Orientation and the Data Science Process*
