@@ -89,6 +89,7 @@ your browser, and you can download copies for annotation or offline reading.
   - [Lecture notes](week-03/Class%20B/class-06-notes.pdf)
   - [Integrated Lab 03 · Visualizing changing Canadian environments](week-03/Assessment/week-03-lab.pdf)
   - [Assignment 01 · Importing the Canadian Air Occurrence Record](week-03/Assessment/assignment-01.pdf)
+  - [Quiz 01 sample questions, with answers](week-03/Assessment/quiz-01-sample-questions.pdf)
 - Week 4, Class A, *Manipulating and Visualizing Data*
   - [Lecture slides](week-04/Class%20A/class-07-slides.pdf)
   - [Lecture notes](week-04/Class%20A/class-07-notes.pdf)
@@ -107,10 +108,11 @@ your browser, and you can download copies for annotation or offline reading.
 - Week 6, Class A, *Prediction Models*
   - [Lecture slides](week-06/Class%20A/class-11-slides.pdf)
   - [Lecture notes](week-06/Class%20A/class-11-notes.pdf)
+  - [Quiz 02 sample questions, with answers](week-06/Assessment/quiz-02-sample-questions.pdf)
 
 The complete teaching sets for Weeks 1–5 are available above, each with both
-classes and its integrated lab. Week 6's slides and lecture notes and
-Assignment 01 are also available. Lab 06, Weeks 7–12 and Assignments 02–04 are
+classes and its integrated lab. Week 6's slides and lecture notes,
+Assignment 01, and sample questions from Quizzes 01 and 02 are also available. Lab 06, Weeks 7–12 and Assignments 02–04 are
 not yet published here. The course plan below
 describes those later topics so you can
 see how they fit together. Download links will be added as documents are
@@ -119,7 +121,8 @@ released.
 The folders follow the teaching sequence. Within each `week-XX` folder,
 `Class A` and `Class B` are the first and second class of that teaching week;
 Week 6 meets once and has only `Class A`.
-`Assessment` is the location for released lab and assignment handouts.
+`Assessment` is the location for released lab and assignment handouts and
+quiz sample questions for study.
 `extras` holds the notebooks run in class, where a week has them.
 Course-wide documents are under `assets/`. A folder may exist before its
 documents are available; an empty folder does not add a preparation or submission
