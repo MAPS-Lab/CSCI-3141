@@ -109,9 +109,9 @@ your browser, and you can download copies for annotation or offline reading.
   - [Lecture slides](week-06/Class%20A/class-11-slides.pdf)
   - [Lecture notes](week-06/Class%20A/class-11-notes.pdf)
   - [Quiz 02 sample questions, with answers](week-06/Assessment/quiz-02-sample-questions.pdf)
-- Week 7, Class A, *Performance Estimation*
-  - [Lecture slides](week-07/Class%20A/class-12-slides.pdf)
-  - [Lecture notes](week-07/Class%20A/class-12-notes.pdf)
+- Week 7, Class B, *Performance Estimation*
+  - [Lecture slides](week-07/Class%20B/class-12-slides.pdf)
+  - [Lecture notes](week-07/Class%20B/class-12-notes.pdf)
 
 The complete teaching sets for Weeks 1–5 are available above, each with both
 classes and its integrated lab. The slides and lecture notes for Weeks 6 and 7,
@@ -123,8 +123,8 @@ released.
 
 The folders follow the teaching sequence. Within each `week-XX` folder,
 `Class A` and `Class B` are the first and second class of that teaching week;
-Week 6 meets once, and Week 7's first meeting is the midterm, so each of those
-weeks has only `Class A`.
+Week 6 meets once and has only `Class A`. Week 7's `Class A` is the midterm and
+stays empty, so that week's class is in `Class B`.
 `Assessment` is the location for released lab and assignment handouts and
 quiz sample questions for study.
 `extras` holds the notebooks run in class, where a week has them.
