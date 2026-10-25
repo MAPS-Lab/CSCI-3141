@@ -109,18 +109,22 @@ your browser, and you can download copies for annotation or offline reading.
   - [Lecture slides](week-06/Class%20A/class-11-slides.pdf)
   - [Lecture notes](week-06/Class%20A/class-11-notes.pdf)
   - [Quiz 02 sample questions, with answers](week-06/Assessment/quiz-02-sample-questions.pdf)
+- Week 7, Class B, *Performance Estimation*
+  - [Lecture slides](week-07/Class%20B/class-12-slides.pdf)
+  - [Lecture notes](week-07/Class%20B/class-12-notes.pdf)
 
 The complete teaching sets for Weeks 1–5 are available above, each with both
-classes and its integrated lab. Week 6's slides and lecture notes,
-Assignment 01, and sample questions from Quizzes 01 and 02 are also available. Lab 06, Weeks 7–12 and Assignments 02–04 are
-not yet published here. The course plan below
+classes and its integrated lab. The slides and lecture notes for Weeks 6 and 7,
+Assignment 01, and sample questions from Quizzes 01 and 02 are also available.
+Labs 06 and 07, Weeks 8–12 and Assignments 02–04 are not yet published here. The course plan below
 describes those later topics so you can
 see how they fit together. Download links will be added as documents are
 released.
 
 The folders follow the teaching sequence. Within each `week-XX` folder,
 `Class A` and `Class B` are the first and second class of that teaching week;
-Week 6 meets once and has only `Class A`.
+Week 6 meets once and has only `Class A`. Week 7's `Class A` is the midterm and
+stays empty, so that week's class is in `Class B`.
 `Assessment` is the location for released lab and assignment handouts and
 quiz sample questions for study.
 `extras` holds the notebooks run in class, where a week has them.
@@ -180,7 +184,7 @@ deadlines. Pace and examples may be adjusted through course announcements.
    reporting in R Markdown and Python notebooks. The analysis, figures, and
    explanation become a document that can be rerun and checked.
 
-### Weeks 5–8 · Predict outcomes and study model behaviour
+### Weeks 5–9 · Predict outcomes and estimate performance
 
 5. **Week 5 · Predictive tasks and metrics.** Classification and regression
    introduce two different kinds of prediction problem. The classes examine
@@ -190,20 +194,23 @@ deadlines. Pace and examples may be adjusted through course announcements.
    k-nearest neighbours, linear regression, and linear discriminant analysis.
    Attention moves from describing a dataset to fitting a method and
    interpreting its predictions.
-7. **Week 7 · Midterm and support vector machines.** The first meeting is the
-   midterm examination. The second introduces support vector machines and
-   continues the predictive modelling sequence. Assignment 2 is released in
-   this part of the course.
-8. **Week 8 · Decision trees.** The classes introduce decision trees and develop
+7. **Week 7 · Midterm and performance estimation.** The first meeting is the
+   midterm examination. The second introduces performance estimation through
+   holdout, random subsampling, the bootstrap, and cross-validation. The
+   central question is how much confidence an evaluation gives you about
+   performance beyond the data used to fit a model. Assignment 2 is released
+   in this part of the course.
+8. **Week 8 · Comparing workflows and support vector machines.** Class A
+   continues with the bootstrap, nested resampling, and comparing workflows.
+   Class B introduces support vector machines, margins, kernels, and support
+   vector regression, tuned with cross-validation.
+9. **Week 9 · Decision trees.** The classes introduce decision trees and develop
    tree-based models and pruning. You examine how a tree partitions data and how
-   its complexity affects the result.
+   its complexity affects the result. Assignment 3 brings the predictive
+   workflow together.
 
-### Weeks 9–12 · Evaluate evidence and discover structure
+### Weeks 10–12 · Control complexity and discover structure
 
-9. **Week 9 · Performance estimation.** Both classes focus on how model
-   performance is estimated. The central question is how much confidence an
-   evaluation gives you about performance beyond the data used to fit a model.
-   Assignment 3 brings the predictive workflow together.
 10. **Week 10 · Model complexity and descriptive analytics.** Bias, variance,
     overfitting, and regularization lead into descriptive analytics, similarity,
     and distance. The focus broadens from predicting a specified outcome to
