@@ -201,7 +201,8 @@ deadlines. Pace and examples may be adjusted through course announcements.
    performance beyond the data used to fit a model. Assignment 2 is released
    in this part of the course.
 8. **Week 8 · Comparing workflows and support vector machines.** Class A
-   continues with the bootstrap, nested resampling, and comparing workflows.
+   continues with grouped and time-ordered data, nested resampling, and
+   comparing workflows.
    Class B introduces support vector machines, margins, kernels, and support
    vector regression, tuned with cross-validation.
 9. **Week 9 · Decision trees.** The classes introduce decision trees and develop
