@@ -112,11 +112,15 @@ your browser, and you can download copies for annotation or offline reading.
 - Week 7, Class B, *Performance Estimation*
   - [Lecture slides](week-07/Class%20B/class-12-slides.pdf)
   - [Lecture notes](week-07/Class%20B/class-12-notes.pdf)
+- Week 8, Assessment
+  - [Assignment 02 · Comparing Predictive Models Honestly](week-08/Assessment/assignment-02.pdf)
 
 The complete teaching sets for Weeks 1–5 are available above, each with both
 classes and its integrated lab. The slides and lecture notes for Weeks 6 and 7,
-Assignment 01, and sample questions from Quizzes 01 and 02 are also available.
-Labs 06 and 07, Weeks 8–12 and Assignments 02–04 are not yet published here. The course plan below
+Assignments 01 and 02, and sample questions from Quizzes 01 and 02 are also
+available. Weeks 6 to 9 have no weekly lab, because Assignment 02 assesses their
+methods as one study. The classes of Weeks 8–12 and Assignments 03–04 are not yet
+published here. The course plan below
 describes those later topics so you can
 see how they fit together. Download links will be added as documents are
 released.
@@ -198,13 +202,13 @@ deadlines. Pace and examples may be adjusted through course announcements.
    midterm examination. The second introduces performance estimation through
    holdout, random subsampling, the bootstrap, and cross-validation. The
    central question is how much confidence an evaluation gives you about
-   performance beyond the data used to fit a model. Assignment 2 is released
-   in this part of the course.
-8. **Week 8 · Comparing workflows and support vector machines.** Class A
-   continues with grouped and time-ordered data, nested resampling, and
-   comparing workflows.
+   performance beyond the data used to fit a model.
+8. **Week 8 · Comparing models and support vector machines.** Class A
+   continues with time-ordered data, nested resampling, and comparing models.
    Class B introduces support vector machines, margins, kernels, and support
-   vector regression, tuned with cross-validation.
+   vector regression, tuned with cross-validation. Assignment 2, released at
+   Class A, replaces the weekly labs of Weeks 6 to 9 with one predictive study
+   that compares those weeks' methods on one data set.
 9. **Week 9 · Decision trees.** The classes introduce decision trees and develop
    tree-based models and pruning. You examine how a tree partitions data and how
    its complexity affects the result. Assignment 3 brings the predictive
@@ -241,7 +245,8 @@ interpretation. If the outputs differ, first check the input data, selected rows
 variable types, and preparation steps. Keep a short record of the question you
 were trying to answer and the decision each step supports.
 
-Each week's second class begins an integrated lab. Use it to apply the methods
+Each week's second class begins an integrated lab, except in Weeks 6 to 9,
+whose methods Assignment 2 assesses as one study. Use the lab to apply the methods
 introduced so far, ask questions, and develop your own analysis. The lab handout
 sets the approved data, required work, deliverables, and rubric. Keep it beside
 the slides and notes while you work.
@@ -294,7 +299,7 @@ alongside the instructions for each assessment.
 | Midterm examination | 15% |
 | Cumulative final examination | 25% |
 
-The best 10 of 12 individual lab results count toward the lab component.
+The best 7 of the 8 individual lab results count toward the lab component.
 Labs are due seven calendar days after the integrated session, before the
 next usual Class B start time. The current syllabus specifies 16:05 Halifax
 time, including weeks without a scheduled meeting. Assignment release and due
@@ -307,7 +312,7 @@ for preparation, methodological choices, interpretation, and reproducibility.
 | Assignment | Primary focus | Course weight |
 | --- | --- | ---: |
 | 1 | Import and basic exploration | 7.5% |
-| 2 | Preprocess and explore data | 7.5% |
+| 2 | Compare predictive models, Weeks 6 to 9 | 7.5% |
 | 3 | Predictive modelling solution | 15% |
 | 4 | Descriptive modelling solution | 15% |
 
