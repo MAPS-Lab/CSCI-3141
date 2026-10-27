@@ -112,18 +112,27 @@ your browser, and you can download copies for annotation or offline reading.
 - Week 7, Class B, *Performance Estimation*
   - [Lecture slides](week-07/Class%20B/class-12-slides.pdf)
   - [Lecture notes](week-07/Class%20B/class-12-notes.pdf)
+- Week 8, Class A, *Performance Estimation (cont.)*
+  - [Lecture slides](week-08/Class%20A/class-13-slides.pdf)
+  - [Lecture notes](week-08/Class%20A/class-13-notes.pdf)
+  - [Assignment 02 · Which Aviation Accidents Turn Fatal?](week-08/Assessment/assignment-02.pdf)
+- Week 8, Class B, *Support Vector Machines*
+  - [Lecture slides](week-08/Class%20B/class-14-slides.pdf)
+  - [Lecture notes](week-08/Class%20B/class-14-notes.pdf)
+  - [Integrated Lab 08 · Species classification with support vector machines](week-08/Assessment/week-08-lab.pdf)
 
-The complete teaching sets for Weeks 1–5 are available above, each with both
-classes and its integrated lab. The slides and lecture notes for Weeks 6 and 7,
-Assignment 01, and sample questions from Quizzes 01 and 02 are also available.
-Labs 06 and 07, Weeks 8–12 and Assignments 02–04 are not yet published here. The course plan below
+The complete teaching sets for Weeks 1–5 and Week 8 are available above, each
+with both classes and its integrated lab. The slides and lecture notes for Weeks
+6 and 7, Assignments 01 and 02, and sample questions from Quizzes 01 and 02 are
+also available. Weeks 9–12 and Assignments 03–04 are not yet published here. The course plan below
 describes those later topics so you can
 see how they fit together. Download links will be added as documents are
 released.
 
 The folders follow the teaching sequence. Within each `week-XX` folder,
 `Class A` and `Class B` are the first and second class of that teaching week;
-Week 6 meets once and has only `Class A`. Week 7's `Class A` is the midterm and
+Week 6 teaches one class, in `Class A`, and its Thursday meeting was a midterm
+revision session with no new material. Week 7's `Class A` is the midterm and
 stays empty, so that week's class is in `Class B`.
 `Assessment` is the location for released lab and assignment handouts and
 quiz sample questions for study.
@@ -190,7 +199,8 @@ deadlines. Pace and examples may be adjusted through course announcements.
    introduce two different kinds of prediction problem. The classes examine
    their corresponding performance measures, building the vocabulary needed to
    judge a model's results.
-6. **Week 6 · Predictive methods.** This week meets once. The class introduces
+6. **Week 6 · Predictive methods.** This week teaches one class, followed by a
+   midterm revision session. The class introduces
    k-nearest neighbours, linear regression, and linear discriminant analysis.
    Attention moves from describing a dataset to fitting a method and
    interpreting its predictions.
@@ -198,13 +208,12 @@ deadlines. Pace and examples may be adjusted through course announcements.
    midterm examination. The second introduces performance estimation through
    holdout, random subsampling, the bootstrap, and cross-validation. The
    central question is how much confidence an evaluation gives you about
-   performance beyond the data used to fit a model. Assignment 2 is released
-   in this part of the course.
-8. **Week 8 · Comparing workflows and support vector machines.** Class A
-   continues with grouped and time-ordered data, nested resampling, and
-   comparing workflows.
-   Class B introduces support vector machines, margins, kernels, and support
-   vector regression, tuned with cross-validation.
+   performance beyond the data used to fit a model.
+8. **Week 8 · Comparing models and support vector machines.** Class A
+   continues with time-ordered data, nested resampling, and testing whether one
+   model is genuinely better than another. Class B introduces support vector
+   machines, margins, kernels, and tuning inside cross-validation, and Lab 08
+   practises that workflow. Assignment 2 is released in this week.
 9. **Week 9 · Decision trees.** The classes introduce decision trees and develop
    tree-based models and pruning. You examine how a tree partitions data and how
    its complexity affects the result. Assignment 3 brings the predictive
