@@ -303,7 +303,7 @@ alongside the instructions for each assessment.
 | Midterm examination | 15% |
 | Cumulative final examination | 25% |
 
-The best 10 of 12 individual lab results count toward the lab component.
+The best 8 of 9 individual lab results count toward the lab component.
 Labs are due seven calendar days after the integrated session, before the
 next usual Class B start time. The current syllabus specifies 16:05 Halifax
 time, including weeks without a scheduled meeting. Assignment release and due
