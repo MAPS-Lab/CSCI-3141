@@ -120,11 +120,17 @@ your browser, and you can download copies for annotation or offline reading.
   - [Lecture slides](week-08/Class%20B/class-14-slides.pdf)
   - [Lecture notes](week-08/Class%20B/class-14-notes.pdf)
   - [Integrated Lab 08 · Species classification with support vector machines](week-08/Assessment/week-08-lab.pdf)
+- Week 9, Class A, *Decision Trees*
+  - [Lecture slides](week-09/Class%20A/class-15-slides.pdf)
+  - [Lecture notes](week-09/Class%20A/class-15-notes.pdf)
+- Week 9, Class B, *Tree-Based Models*
+  - [Lecture slides](week-09/Class%20B/class-16-slides.pdf)
+  - [Lecture notes](week-09/Class%20B/class-16-notes.pdf)
 
 The complete teaching sets for Weeks 1–5 and Week 8 are available above, each
 with both classes and its integrated lab. The slides and lecture notes for Weeks
-6 and 7, Assignments 01 and 02, and sample questions from Quizzes 01 and 02 are
-also available. Weeks 9–12 and Assignments 03–04 are not yet published here. The course plan below
+6, 7 and 9, Assignments 01 and 02, and sample questions from Quizzes 01 and 02
+are also available. Weeks 10–12 and Assignments 03–04 are not yet published here. The course plan below
 describes those later topics so you can
 see how they fit together. Download links will be added as documents are
 released.
@@ -216,15 +222,15 @@ deadlines. Pace and examples may be adjusted through course announcements.
    practises that workflow. Assignment 2 is released in this week.
 9. **Week 9 · Decision trees.** The classes introduce decision trees and develop
    tree-based models and pruning. You examine how a tree partitions data and how
-   its complexity affects the result. Assignment 3 brings the predictive
-   workflow together.
+   its complexity affects the result.
 
 ### Weeks 10–12 · Control complexity and discover structure
 
 10. **Week 10 · Model complexity and descriptive analytics.** Bias, variance,
     overfitting, and regularization lead into descriptive analytics, similarity,
     and distance. The focus broadens from predicting a specified outcome to
-    studying the structure within a dataset. Assignment 4 is released here.
+    studying the structure within a dataset. Assignments 3 and 4 are released
+    here.
 11. **Week 11 · Clustering.** Distance and preparation choices lead into
     clustering algorithms and their evaluation. You examine how the definition
     of similarity affects the groups an analysis produces.
@@ -250,7 +256,8 @@ interpretation. If the outputs differ, first check the input data, selected rows
 variable types, and preparation steps. Keep a short record of the question you
 were trying to answer and the decision each step supports.
 
-Each week's second class begins an integrated lab. Use it to apply the methods
+In most weeks the second class begins an integrated lab. Weeks 6, 7 and 9
+carry none, and Lab 12 begins with Week 12's first class. Use a lab to apply the methods
 introduced so far, ask questions, and develop your own analysis. The lab handout
 sets the approved data, required work, deliverables, and rubric. Keep it beside
 the slides and notes while you work.
@@ -303,7 +310,7 @@ alongside the instructions for each assessment.
 | Midterm examination | 15% |
 | Cumulative final examination | 25% |
 
-The best 10 of 12 individual lab results count toward the lab component.
+The best 8 of 9 individual lab results count toward the lab component.
 Labs are due seven calendar days after the integrated session, before the
 next usual Class B start time. The current syllabus specifies 16:05 Halifax
 time, including weeks without a scheduled meeting. Assignment release and due
@@ -316,8 +323,8 @@ for preparation, methodological choices, interpretation, and reproducibility.
 | Assignment | Primary focus | Course weight |
 | --- | --- | ---: |
 | 1 | Import and basic exploration | 7.5% |
-| 2 | Preprocess and explore data | 7.5% |
-| 3 | Predictive modelling solution | 15% |
+| 2 | Predict fatal aviation accidents from the Assignment 1 table | 7.5% |
+| 3 | Trees, forests, thresholds, and one final test | 15% |
 | 4 | Descriptive modelling solution | 15% |
 
 Use the released handout for the dataset, required files, format, rubric, and
