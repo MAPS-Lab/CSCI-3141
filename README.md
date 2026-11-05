@@ -126,11 +126,12 @@ your browser, and you can download copies for annotation or offline reading.
 - Week 9, Class B, *Tree-Based Models*
   - [Lecture slides](week-09/Class%20B/class-16-slides.pdf)
   - [Lecture notes](week-09/Class%20B/class-16-notes.pdf)
+  - [Integrated Lab 09 · Trees for land and resource decisions](week-09/Assessment/week-09-lab.pdf)
 
-The complete teaching sets for Weeks 1–5 and Week 8 are available above, each
+The complete teaching sets for Weeks 1–5, 8 and 9 are available above, each
 with both classes and its integrated lab. The slides and lecture notes for Weeks
-6, 7 and 9, Assignments 01 and 02, and sample questions from Quizzes 01 and 02
-are also available. Weeks 10–12 and Assignments 03–04 are not yet published here. The course plan below
+6 and 7, Assignments 01 and 02, and sample questions from Quizzes 01 and 02
+are also available. Weeks 10–12 and Assignment 03 are not yet published here. The course plan below
 describes those later topics so you can
 see how they fit together. Download links will be added as documents are
 released.
@@ -222,15 +223,15 @@ deadlines. Pace and examples may be adjusted through course announcements.
    practises that workflow. Assignment 2 is released in this week.
 9. **Week 9 · Decision trees.** The classes introduce decision trees and develop
    tree-based models and pruning. You examine how a tree partitions data and how
-   its complexity affects the result.
+   its complexity affects the result, and Lab 09 practises growing, pruning, and
+   judging the fit of a tree.
 
 ### Weeks 10–12 · Control complexity and discover structure
 
 10. **Week 10 · Model complexity and descriptive analytics.** Bias, variance,
     overfitting, and regularization lead into descriptive analytics, similarity,
     and distance. The focus broadens from predicting a specified outcome to
-    studying the structure within a dataset. Assignments 3 and 4 are released
-    here.
+    studying the structure within a dataset. Assignment 3 is released here.
 11. **Week 11 · Clustering.** Distance and preparation choices lead into
     clustering algorithms and their evaluation. You examine how the definition
     of similarity affects the groups an analysis produces.
@@ -256,7 +257,7 @@ interpretation. If the outputs differ, first check the input data, selected rows
 variable types, and preparation steps. Keep a short record of the question you
 were trying to answer and the decision each step supports.
 
-In most weeks the second class begins an integrated lab. Weeks 6, 7 and 9
+In most weeks the second class begins an integrated lab. Weeks 6 and 7
 carry none, and Lab 12 begins with Week 12's first class. Use a lab to apply the methods
 introduced so far, ask questions, and develop your own analysis. The lab handout
 sets the approved data, required work, deliverables, and rubric. Keep it beside
@@ -306,17 +307,18 @@ alongside the instructions for each assessment.
 | Graded component | Course weight |
 | --- | ---: |
 | Integrated labs | 15% |
-| Four individual assignments | 45% |
+| Three individual assignments | 45% |
 | Midterm examination | 15% |
 | Cumulative final examination | 25% |
 
-The best 8 of 9 individual lab results count toward the lab component.
+The best 9 of 10 individual lab results count toward the lab component.
 Labs are due seven calendar days after the integrated session, before the
 next usual Class B start time. The current syllabus specifies 16:05 Halifax
-time, including weeks without a scheduled meeting. Assignment release and due
+time, including weeks without a scheduled meeting. Lab 09 opens before Fall
+Break, so it falls due at the first Class B after the break. Assignment release and due
 dates follow the syllabus; they do not use the weekly lab deadline.
 
-Labs provide regular practice with the current methods. The four assignments
+Labs provide regular practice with the current methods. The three assignments
 ask you to assemble a more complete analysis, with increasing responsibility
 for preparation, methodological choices, interpretation, and reproducibility.
 
@@ -324,8 +326,7 @@ for preparation, methodological choices, interpretation, and reproducibility.
 | --- | --- | ---: |
 | 1 | Import and basic exploration | 7.5% |
 | 2 | Predict fatal aviation accidents from the Assignment 1 table | 7.5% |
-| 3 | Trees, forests, thresholds, and one final test | 15% |
-| 4 | Descriptive modelling solution | 15% |
+| 3 | Descriptive modelling solution | 30% |
 
 Use the released handout for the dataset, required files, format, rubric, and
 authorized tools. Assessment handouts state what to demonstrate; students
