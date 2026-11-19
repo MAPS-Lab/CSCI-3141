@@ -127,11 +127,16 @@ your browser, and you can download copies for annotation or offline reading.
   - [Lecture slides](week-09/Class%20B/class-16-slides.pdf)
   - [Lecture notes](week-09/Class%20B/class-16-notes.pdf)
   - [Integrated Lab 09 · Trees for land and resource decisions](week-09/Assessment/week-09-lab.pdf)
+- Week 10, Class A, *Explaining a Fitted Model*
+  - [Lecture slides](week-10/Class%20A/class-17-slides.pdf)
+  - [Lecture notes](week-10/Class%20A/class-17-notes.pdf)
+  - [Quiz 03 sample questions, with answers](week-10/Assessment/quiz-03-sample-questions.pdf)
 
 The complete teaching sets for Weeks 1–5, 8 and 9 are available above, each
 with both classes and its integrated lab. The slides and lecture notes for Weeks
-6 and 7, Assignments 01 and 02, and sample questions from Quizzes 01 and 02
-are also available. Weeks 10–12 and Assignment 03 are not yet published here. The course plan below
+6 and 7, the first class of Week 10, Assignments 01 and 02, and sample questions
+from Quizzes 01 to 03 are also available. The rest of Weeks 10–12 and Assignment 03
+are not yet published here. The course plan below
 describes those later topics so you can
 see how they fit together. Download links will be added as documents are
 released.
@@ -228,10 +233,10 @@ deadlines. Pace and examples may be adjusted through course announcements.
 
 ### Weeks 10–12 · Control complexity and discover structure
 
-10. **Week 10 · Model complexity and descriptive analytics.** Bias, variance,
-    overfitting, and regularization lead into descriptive analytics, similarity,
-    and distance. The focus broadens from predicting a specified outcome to
-    studying the structure within a dataset. Assignment 3 is released here.
+10. **Week 10 · Explaining fitted models.** The classes ask what a fitted model
+    relies on and why it gives one prediction: permutation importance, partial
+    dependence, Shapley values and counterfactuals, with the traps in each.
+    Assignment 3 is released here.
 11. **Week 11 · Clustering.** Distance and preparation choices lead into
     clustering algorithms and their evaluation. You examine how the definition
     of similarity affects the groups an analysis produces.
