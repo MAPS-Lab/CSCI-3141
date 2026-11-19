@@ -102,9 +102,13 @@ Released documents are PDFs that GitHub previews in the browser.
   - [Lecture slides](week-10/Class%20A/class-17-slides.pdf)
   - [Lecture notes](week-10/Class%20A/class-17-notes.pdf)
   - [Quiz 03 sample questions, with answers](week-10/Assessment/quiz-03-sample-questions.pdf)
+- Week 10, Class B, *Explaining One Prediction*
+  - [Lecture slides](week-10/Class%20B/class-18-slides.pdf)
+  - [Lecture notes](week-10/Class%20B/class-18-notes.pdf)
+  - [Integrated Lab 10 · Explaining models of lakes and seabeds](week-10/Assessment/week-10-lab.pdf)
+  - [Assignment 03 · A Descriptive Modelling Solution for Wholesale Client Structure](week-10/Assessment/assignment-03.pdf)
 
-Links for the remaining classes, labs, and Assignment 03 are added as they are
-released.
+Links for the remaining classes and labs are added as they are released.
 
 Each `week-XX` folder holds the week's first and second class in `Class A` and
 `Class B`, released handouts and quiz sample questions in `Assessment`, and, in
