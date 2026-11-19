@@ -240,10 +240,9 @@ deadlines. Pace and examples may be adjusted through course announcements.
 11. **Week 11 · Clustering.** Distance and preparation choices lead into
     clustering algorithms and their evaluation. You examine how the definition
     of similarity affects the groups an analysis produces.
-12. **Week 12 · Outliers and workflow synthesis.** Outlier detection is followed
-    by cumulative review. The final class connects preparation, visualization,
-    predictive and descriptive modelling, evaluation, and reporting into the
-    complete workflow.
+12. **Week 12 · Outliers, deployment and responsible use.** Outlier detection is
+    followed by the final class on deploying an analysis and using it
+    responsibly, which also covers the final examination logistics.
 
 Some lectures include optional research examples or extensions. Their presence
 in a slide deck does not make them a prerequisite for that week's assessed work.
