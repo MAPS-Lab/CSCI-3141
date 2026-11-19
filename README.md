@@ -1,67 +1,38 @@
 # Foundations of Data Science
 
-CSCI 3141 · R and Python · Dalhousie University
+CSCI 3141 · R and Python · Dalhousie University · Prof. Gabriel Spadon
 
-Taught by Prof. Gabriel Spadon
-
-Welcome to the public materials for CSCI 3141. This course follows a data science
+These are the public materials for CSCI 3141. The course follows a data science
 project from the first question to an analysis that someone else can understand,
-check, and reproduce. You will work with data, make decisions about its quality,
-explore patterns, build and evaluate models, and communicate what the evidence
-supports.
+check, and reproduce. You will judge data quality, explore patterns, build and
+evaluate models, and communicate what the evidence supports. Anyone can read and
+download the released materials without a GitHub account.
 
-The repository is a place to prepare for class, revisit a difficult example, and
-return to methods after the course ends. Independent readers are welcome to use
-the released materials too. You can read and download them without a GitHub
-account.
-
-This guide describes the whole course, including material awaiting publication.
-The [download list](#available-materials) identifies the documents you can open
-now. For an enrolled student, the [syllabus](assets/syllabus.pdf) for
-your offering is the authority on dates, meeting details, assessment requirements,
-and policies. Check that it matches the offering identified by your instructor.
-
-## Find your way
-
-- [Start here](#start-here)
-- [Available materials](#available-materials)
-- [What you will learn](#what-you-will-learn)
-- [The course week by week](#the-course-week-by-week)
-- [How to work through a week](#how-to-work-through-a-week)
-- [R, Python, and your working environment](#r-python-and-your-working-environment)
-- [Labs, assignments, and examinations](#labs-assignments-and-examinations)
-- [Your data science portfolio](#your-data-science-portfolio)
-- [Collaboration and permitted tools](#collaboration-and-permitted-tools)
-- [Readings and further study](#readings-and-further-study)
-- [Questions, access, and support](#questions-access-and-support)
-- [Sharing and attribution](#sharing-and-attribution)
+This guide describes the whole course, and the [download list](#available-materials)
+shows what is released so far. For enrolled students, the
+[syllabus](assets/syllabus.pdf) is the authority on dates, meetings, assessment,
+and policies.
 
 ## Start here
 
-Read the syllabus first, then open the first class's slides and lecture notes
-together. The slides give you the main ideas, diagrams, and examples. The notes
-develop the reasoning and provide worked steps you can return to at your own
-pace.
+Read the syllabus, then open the first class's slides and notes together. The
+slides carry the main ideas, diagrams, and examples; the notes develop the
+reasoning with worked steps.
 
-Choose either R or Python and prepare one local or cloud environment. Try a
-small example from the lecture, save your work, and run it again from the
-beginning. This gives you an early chance to resolve access or setup problems.
+Choose R or Python and set up one local or cloud environment. Run a small
+lecture example from the beginning to catch access or setup problems early.
+Enrolled students should also check access to the course Microsoft Teams space
+and set up the private assessment repository the syllabus describes, which needs
+a GitHub account. Bring a laptop to practical meetings, or tell the instructor
+early if computer access is a barrier.
 
-If you are enrolled, check your access to the course Microsoft Teams space and
-follow the syllabus instructions for setting up your private assessment
-repository. A GitHub account is needed for that portfolio workflow. Bring a
-laptop to practical meetings, or contact the instructor early if computer access
-is a barrier.
-
-Students from any major are welcome. The syllabus lists no formal prerequisite
-course, but expects preparation in calculus, statistics, basic computing, and
-programming. You are not expected to arrive knowing every package or model used
-later in the course. Guided examples introduce the tools before assessed use.
+Students from any major are welcome. There is no formal prerequisite course, but
+the syllabus expects preparation in calculus, statistics, basic computing, and
+programming. Guided examples introduce each tool before it is assessed.
 
 ## Available materials
 
-Released teaching documents are provided as PDFs. GitHub can preview them in
-your browser, and you can download copies for annotation or offline reading.
+Released documents are PDFs that GitHub previews in the browser.
 
 - [Course syllabus](assets/syllabus.pdf)
 - Cheatsheets
@@ -88,11 +59,11 @@ your browser, and you can download copies for annotation or offline reading.
   - [Lecture slides](week-03/Class%20B/class-06-slides.pdf)
   - [Lecture notes](week-03/Class%20B/class-06-notes.pdf)
   - [Integrated Lab 03 · Visualizing changing Canadian environments](week-03/Assessment/week-03-lab.pdf)
-  - [Assignment 01 · Importing the Canadian Air Occurrence Record](week-03/Assessment/assignment-01.pdf)
   - [Quiz 01 sample questions, with answers](week-03/Assessment/quiz-01-sample-questions.pdf)
 - Week 4, Class A, *Manipulating and Visualizing Data*
   - [Lecture slides](week-04/Class%20A/class-07-slides.pdf)
   - [Lecture notes](week-04/Class%20A/class-07-notes.pdf)
+  - [Assignment 01 · Importing the Canadian Air Occurrence Record](week-04/Assessment/assignment-01.pdf)
 - Week 4, Class B, *Reproducible Reporting*
   - [Lecture slides](week-04/Class%20B/class-08-slides.pdf)
   - [Lecture notes](week-04/Class%20B/class-08-notes.pdf)
@@ -101,10 +72,10 @@ your browser, and you can download copies for annotation or offline reading.
 - Week 5, Class A, *Predictive Analytics*
   - [Lecture slides](week-05/Class%20A/class-09-slides.pdf)
   - [Lecture notes](week-05/Class%20A/class-09-notes.pdf)
-- Week 5, Class B, *Evaluation Metrics*
+- Week 5, Class B, *Predictive Analytics (cont.)*
   - [Lecture slides](week-05/Class%20B/class-10-slides.pdf)
   - [Lecture notes](week-05/Class%20B/class-10-notes.pdf)
-  - [Integrated Lab 05 · Predicting environmental outcomes](week-05/Assessment/week-05-lab.pdf)
+  - [Integrated Lab 05 · Predicting a numeric outcome](week-05/Assessment/week-05-lab.pdf)
 - Week 6, Class A, *Prediction Models*
   - [Lecture slides](week-06/Class%20A/class-11-slides.pdf)
   - [Lecture notes](week-06/Class%20A/class-11-notes.pdf)
@@ -127,363 +98,250 @@ your browser, and you can download copies for annotation or offline reading.
   - [Lecture slides](week-09/Class%20B/class-16-slides.pdf)
   - [Lecture notes](week-09/Class%20B/class-16-notes.pdf)
   - [Integrated Lab 09 · Trees for land and resource decisions](week-09/Assessment/week-09-lab.pdf)
+- Week 10, Class A, *Explaining a Fitted Model*
+  - [Lecture slides](week-10/Class%20A/class-17-slides.pdf)
+  - [Lecture notes](week-10/Class%20A/class-17-notes.pdf)
+  - [Quiz 03 sample questions, with answers](week-10/Assessment/quiz-03-sample-questions.pdf)
 
-The complete teaching sets for Weeks 1–5, 8 and 9 are available above, each
-with both classes and its integrated lab. The slides and lecture notes for Weeks
-6 and 7, Assignments 01 and 02, and sample questions from Quizzes 01 and 02
-are also available. Weeks 10–12 and Assignment 03 are not yet published here. The course plan below
-describes those later topics so you can
-see how they fit together. Download links will be added as documents are
+Links for the remaining classes, labs, and Assignment 03 are added as they are
 released.
 
-The folders follow the teaching sequence. Within each `week-XX` folder,
-`Class A` and `Class B` are the first and second class of that teaching week;
-Week 6 teaches one class, in `Class A`, and its Thursday meeting was a midterm
-revision session with no new material. Week 7's `Class A` is the midterm and
-stays empty, so that week's class is in `Class B`.
-`Assessment` is the location for released lab and assignment handouts and
-quiz sample questions for study.
-`extras` holds the notebooks run in class, where a week has them.
-Course-wide documents are under `assets/`. A folder may exist before its
-documents are available; an empty folder does not add a preparation or submission
+Each `week-XX` folder holds the week's first and second class in `Class A` and
+`Class B`, released handouts and quiz sample questions in `Assessment`, and, in
+some weeks, the notebooks run in class in `extras`. Week 6 teaches one class, in
+`Class A`, followed by a midterm revision session. Week 7's `Class A` is the
+midterm, so that week's class is in `Class B`. Course-wide documents are under
+`assets/`. An empty folder holds documents not yet released and sets no
 requirement.
 
 ## What you will learn
 
-The course starts with a table of observations and the question that brought you
-to it. What does a row represent? Which variables were measured, and in what
-units? What is missing? Before a model can be useful, you need a defensible
-answer to those questions.
+The course starts with a table of observations and the question behind it. What
+does a row represent, which variables were measured and in what units, and what
+is missing? From there you learn to import, clean, transform, and document data,
+choose summaries and graphics that fit the variables, and explain the patterns
+you find. Predictive methods then learn from observed outcomes to estimate the
+outcome of a new case, and descriptive methods examine structure, similarity,
+groups, and unusual observations without a target.
 
-From that foundation, you will learn to import, clean, transform, and document
-data; choose summaries and graphics that fit the variables; and explain the
-patterns you find. Later, predictive methods use observed outcomes to learn how
-to estimate an outcome for another case. Descriptive methods examine structure,
-similarity, groups, and unusual observations without requiring a target outcome.
-
-By the end of the course, you should be able to carry an analysis through these
-decisions and explain why you made them. That includes comparing models using
-appropriate evidence, acknowledging uncertainty and limitations, and preparing a
-reproducible report in R Markdown or a Python notebook.
-
-These steps are connected. An unexpected plot can reveal a cleaning problem; an
-evaluation result can send you back to your choice of variables. The course
-returns to the data science process as new methods become available, so the
-methods remain connected to the question they are meant to answer.
+By the end you should be able to carry an analysis through these decisions and
+justify them, compare models on appropriate evidence, state uncertainty and
+limitations, and deliver a reproducible report in R Markdown or a Python
+notebook. The steps feed back into each other, as when a plot exposes a
+cleaning problem or an evaluation sends you back to the choice of variables.
 
 ## The course week by week
 
-The following learning path follows the syllabus. Week numbers refer to teaching
-weeks, so consult the syllabus for calendar dates, breaks, releases, and
-deadlines. Pace and examples may be adjusted through course announcements.
+Week numbers are teaching weeks. The syllabus gives calendar dates, breaks,
+releases, and deadlines.
 
 ### Weeks 1–4 · Understand, prepare, and communicate data
 
 1. **Week 1 · Course orientation and summarizing data.** Class A introduces the
    data science process and the course workflow. Class B develops observational
-   units, variable types, descriptive summaries, and plots. Lab 01 establishes a
-   descriptive baseline and the private submission process. Models shown during
-   orientation are previews; this lab does not require model fitting or
-   significance tests.
-2. **Week 2 · Data preprocessing.** Class A establishes the foundations of data
+   units, variable types, descriptive summaries, and plots. Lab 01 sets a
+   descriptive baseline and the private submission process, with no model
+   fitting or significance tests.
+2. **Week 2 · Data preprocessing.** Class A lays the foundations of data
    preparation. Class B develops cleaning, transformation, and feature
-   engineering, including how preparation decisions change the table used for
-   analysis. The practical work builds on Week 1's understanding of variables
-   and summaries.
+   engineering, and how preparation decisions change the table you analyse.
 3. **Week 3 · Preprocessing and visualization.** The classes connect prepared
-   data to visual exploration, then examine visualization in more depth. You
-   practise choosing a display for the question and reading what its scales,
-   groups, and distributions actually show. Assignment 1 is released in this
-   part of the course.
-4. **Week 4 · Manipulation and reproducible reporting.** Class A brings together
-   data manipulation and visualization in R and Python. Class B develops
-   reporting in R Markdown and Python notebooks. The analysis, figures, and
-   explanation become a document that can be rerun and checked.
+   data to visual exploration. You practise choosing a display for the question
+   and reading what its scales, groups, and distributions show.
+4. **Week 4 · Manipulation and reproducible reporting.** Class A combines data
+   manipulation and visualization in R and Python. Class B turns the analysis,
+   figures, and explanation into an R Markdown or Python notebook report that
+   can be rerun and checked. Assignment 1 is released.
 
 ### Weeks 5–9 · Predict outcomes and estimate performance
 
-5. **Week 5 · Predictive tasks and metrics.** Classification and regression
-   introduce two different kinds of prediction problem. The classes examine
-   their corresponding performance measures, building the vocabulary needed to
-   judge a model's results.
-6. **Week 6 · Predictive methods.** This week teaches one class, followed by a
-   midterm revision session. The class introduces
-   k-nearest neighbours, linear regression, and linear discriminant analysis.
-   Attention moves from describing a dataset to fitting a method and
-   interpreting its predictions.
-7. **Week 7 · Midterm and performance estimation.** The first meeting is the
-   midterm examination. The second introduces performance estimation through
-   holdout, random subsampling, the bootstrap, and cross-validation. The
-   central question is how much confidence an evaluation gives you about
-   performance beyond the data used to fit a model.
-8. **Week 8 · Comparing models and support vector machines.** Class A
-   continues with time-ordered data, nested resampling, and testing whether one
-   model is genuinely better than another. Class B introduces support vector
-   machines, margins, kernels, and tuning inside cross-validation, and Lab 08
-   practises that workflow. Assignment 2 is released in this week.
-9. **Week 9 · Decision trees.** The classes introduce decision trees and develop
-   tree-based models and pruning. You examine how a tree partitions data and how
-   its complexity affects the result, and Lab 09 practises growing, pruning, and
-   judging the fit of a tree.
+5. **Week 5 · Predictive tasks and metrics.** Classification and regression,
+   and the performance measures that judge each.
+6. **Week 6 · Predictive methods.** k-nearest neighbours, linear regression,
+   and linear discriminant analysis move the focus from describing a dataset to
+   fitting a method and interpreting its predictions.
+7. **Week 7 · Midterm and performance estimation.** After the midterm, holdout,
+   random subsampling, the bootstrap, and cross-validation show how much an
+   evaluation says about performance beyond the data used to fit a model.
+8. **Week 8 · Comparing models and support vector machines.** Class A covers
+   time-ordered data, nested resampling, and testing whether one model is
+   genuinely better than another. Class B introduces support vector machines,
+   margins, kernels, and tuning inside cross-validation, practised in Lab 08.
+   Assignment 2 is released.
+9. **Week 9 · Decision trees.** How a tree partitions data, how its complexity
+   affects the result, and pruning, practised in Lab 09.
 
-### Weeks 10–12 · Control complexity and discover structure
+### Weeks 10–12 · Explain models and discover structure
 
-10. **Week 10 · Model complexity and descriptive analytics.** Bias, variance,
-    overfitting, and regularization lead into descriptive analytics, similarity,
-    and distance. The focus broadens from predicting a specified outcome to
-    studying the structure within a dataset. Assignment 3 is released here.
-11. **Week 11 · Clustering.** Distance and preparation choices lead into
-    clustering algorithms and their evaluation. You examine how the definition
-    of similarity affects the groups an analysis produces.
-12. **Week 12 · Outliers and workflow synthesis.** Outlier detection is followed
-    by cumulative review. The final class connects preparation, visualization,
-    predictive and descriptive modelling, evaluation, and reporting into the
-    complete workflow.
+10. **Week 10 · Explaining fitted models.** What a fitted model relies on and
+    why it gives one prediction, through permutation importance, partial
+    dependence, Shapley values, and counterfactuals, with the traps in each.
+    Assignment 3 is released.
+11. **Week 11 · Clustering.** Distance and preparation choices, clustering
+    algorithms, and their evaluation, and how the definition of similarity
+    shapes the groups found.
+12. **Week 12 · Outliers, deployment, and responsible use.** Outlier detection,
+    then deploying an analysis and using it responsibly, with the final
+    examination logistics.
 
-Some lectures include optional research examples or extensions. Their presence
-in a slide deck does not make them a prerequisite for that week's assessed work.
-Use the lab or assignment handout to identify the methods and evidence required.
+Optional research examples in a deck are not prerequisites for assessed work.
+The lab or assignment handout states what is required.
 
 ## How to work through a week
 
-Before a class, read its opening goals and review the ideas it carries forward
-from the preceding meeting. During class, use the slides to follow the sequence
-of questions, examples, and diagrams. Mark the points you want to revisit in the
-notes rather than trying to transcribe every slide.
+Before class, read the opening goals and what the class carries forward. In
+class, follow the slides and mark points to revisit in the notes instead of
+transcribing. Afterwards, work through the notes and run the code yourself. If
+an output differs, check the input data, selected rows, variable types, and
+preparation steps first.
 
-Afterwards, work through the corresponding explanation and examples in the
-notes. Run the code yourself and compare the result with the stated
-interpretation. If the outputs differ, first check the input data, selected rows,
-variable types, and preparation steps. Keep a short record of the question you
-were trying to answer and the decision each step supports.
-
-In most weeks the second class begins an integrated lab. Weeks 6 and 7
-carry none, and Lab 12 begins with Week 12's first class. Use a lab to apply the methods
-introduced so far, ask questions, and develop your own analysis. The lab handout
-sets the approved data, required work, deliverables, and rubric. Keep it beside
-the slides and notes while you work.
-
-As reports become more substantial, practise restarting the R session or Python
-kernel and running the analysis from beginning to end. A saved output should be
-traceable to the code and data in the submitted version. Explain a result in
-words as well as displaying it, including its units, relevant sample size, and
-any limitation needed to interpret it fairly.
+In most weeks the second class begins an integrated lab. Weeks 6 and 7 have
+none, and Lab 12 begins with Week 12's first class. The lab handout sets the
+approved data, required work, deliverables, and rubric. As reports grow, restart
+the R session or Python kernel and run the analysis end to end, so every saved
+output traces to the submitted code and data. Explain each result in words,
+with its units, sample size, and any limitation needed to read it fairly.
 
 ## R, Python, and your working environment
 
 R is the primary teaching language, with full Python parity in materials,
-demonstrations, practical work, and assessments. Choose one language for your
-work. Both follow the same requirements and grading standards; you do not need
-to submit an analysis twice in two languages.
+demonstrations, practical work, and assessments. Choose one language. Both
+follow the same requirements and grading, and nothing is submitted twice.
 
-You can use a local R or Python environment, or one of the cloud options listed
-in the syllabus.
-
-- [Posit Cloud](https://posit.cloud/) provides browser-based RStudio and Jupyter
-  projects for R or Python work.
-- [Kaggle Notebooks](https://www.kaggle.com/code) supports R and Python notebooks.
-- [Google Colab](https://colab.research.google.com/) provides Python notebooks
-  in the browser.
-
-Another suitable free cloud notebook service is also acceptable. No paid
-external service or public generative AI service is required. Cloud plans and
-resource limits can change; consult the provider's guidance when choosing an
-environment. Keep copies of the notebooks and supporting files in your private
-assessment repository so the work is preserved beyond a running session.
-
-Use the software and dataset guidance supplied with the relevant class or
-activity. Record the data source and the steps needed to run your analysis.
-Check a cloud notebook's sharing settings before putting assessed work in it.
-Permission to use an editor or notebook service does not authorize its generative
-AI features for assessed work; the rules below still apply.
+Work locally or in a free cloud notebook service such as
+[Posit Cloud](https://posit.cloud/) (RStudio and Jupyter),
+[Kaggle Notebooks](https://www.kaggle.com/code) (R and Python), or
+[Google Colab](https://colab.research.google.com/) (Python). No paid service or
+public generative AI service is required. Keep notebooks and supporting files in
+your private assessment repository, check a cloud notebook's sharing settings
+before putting assessed work in it, and record the data source and the steps to
+run the analysis. Permission to use an editor or notebook service does not
+authorize its generative AI features for assessed work.
 
 ## Labs, assignments, and examinations
 
-The numerical grading structure in the published syllabus is shown below.
-The syllabus contains the full assessment and passing requirements, approved
-aids, late-work rules, and absence and accommodation procedures. Consult it
-alongside the instructions for each assessment.
+The syllabus holds the full assessment and passing requirements, approved aids,
+late-work rules, and absence and accommodation procedures. The course weights
+are as follows.
 
-| Graded component | Course weight |
+| Component | Weight |
 | --- | ---: |
-| Integrated labs | 15% |
-| Three individual assignments | 45% |
-| Midterm examination | 15% |
+| Integrated labs, best 9 of 10 | 15% |
+| Assignment 1 · Import and basic exploration | 11.25% |
+| Assignment 2 · Predict fatal aviation accidents | 11.25% |
+| Assignment 3 · Descriptive modelling solution | 22.5% |
+| Midterm examination, in class | 15% |
 | Cumulative final examination | 25% |
 
-The best 9 of 10 individual lab results count toward the lab component.
-Labs are due seven calendar days after the integrated session, before the
-next usual Class B start time. The current syllabus specifies 16:05 Halifax
-time, including weeks without a scheduled meeting. Lab 09 opens before Fall
-Break, so it falls due at the first Class B after the break. Assignment release and due
-dates follow the syllabus; they do not use the weekly lab deadline.
+In-class quizzes are ungraded. Completing at least two of the four is required
+to pass the course.
 
-Labs provide regular practice with the current methods. The three assignments
-ask you to assemble a more complete analysis, with increasing responsibility
-for preparation, methodological choices, interpretation, and reproducibility.
-
-| Assignment | Primary focus | Course weight |
-| --- | --- | ---: |
-| 1 | Import and basic exploration | 7.5% |
-| 2 | Predict fatal aviation accidents from the Assignment 1 table | 7.5% |
-| 3 | Descriptive modelling solution | 30% |
-
-Use the released handout for the dataset, required files, format, rubric, and
-authorized tools. Assessment handouts state what to demonstrate; students
-must write and justify their own analysis. Worked teaching examples are in the
-lecture materials. The submitted files must open and reproduce the analysis.
-Submission dates belong to the syllabus and the instructions for your offering;
-this course guide does not set a separate calendar.
-
-The midterm is held in class, and the Registrar schedules the cumulative final
-examination. Follow the examination's approved-aids instructions and the
-syllabus when preparing for either.
+Labs are due seven calendar days after the integrated session, before 16:05
+Halifax time (the usual Class B start), even in weeks without a meeting. Lab 09
+opened before Fall Break and falls due at the first Class B after it.
+Assignments follow the release and due dates in the syllabus. Labs give regular
+practice with current methods, and the assignments ask for a complete analysis
+with growing responsibility for preparation, method choice, interpretation, and
+reproducibility. Each handout sets the dataset, required files, format, rubric,
+and authorized tools and states what to demonstrate. You write and justify the
+analysis yourself, and worked examples are in the lecture materials. The
+Registrar schedules the final examination.
 
 ## Your data science portfolio
 
-Your labs and assignments become a portfolio of analyses you can discuss in
-class and revisit later. A reader should be able to find the question, identify
-the data, follow the analysis, and understand the conclusion without needing
-you to explain every file in person.
-
-The syllabus uses these locations in your own assessment repository.
-
-```text
-labs/
-  lab-01/
-  lab-02/
-  ...
-assignments/
-  assignment-01/
-  assignment-02/
-  ...
-```
-
-Follow each handout for the files inside its folder. These directories belong
-to your own work repository. Each one carries its own `README.md`, which is
-where you record the version to be graded; course-repository issues and pull
-requests are not assessment submissions.
+Your labs and assignments become a portfolio. A reader should find the question,
+the data, the analysis, and the conclusion without you explaining the files in
+person. Your assessment repository uses `labs/lab-01/`, `labs/lab-02/`, and so
+on, and `assignments/assignment-01/` onward. Each folder holds its handout's
+files and a `README.md` that records the version to be graded. Course-repository
+issues and pull requests are not submissions.
 
 ### Develop privately
 
-Work in a private GitHub repository with instructor access. Commit regularly as
-you work and push those commits to the private repository. Keep code, reports,
-figures, outputs, cloud notebooks, and links that reveal answers private before
-the deadline and until sharing is opened. A branch in a public repository is
-public too.
+Work in a private GitHub repository with instructor access, and commit and push
+regularly. Keep code, reports, figures, outputs, cloud notebooks, and links that
+reveal answers private before the deadline and until sharing is opened. A branch
+in a public repository is public too.
 
 ### Submit a fixed version
 
-First commit the completed report, source, and supporting evidence. Record that
-commit's full SHA and commit URL in the assessment directory's `README.md`,
-then commit the README update separately. A commit cannot contain its own SHA.
-Push both commits to the default branch of your private repository by the
-deadline. The marker reads that README and assesses the snapshot it names.
-A branch link or movable tag is insufficient because its destination can
-change. Keep the submitted commit reachable.
+Commit the completed report, source, and evidence. Record that commit's full SHA
+and URL in the assessment folder's `README.md`, then commit the README change
+separately, since a commit cannot contain its own SHA. Push both to the default
+branch of your private repository by the deadline. The marker assesses the
+snapshot that README names. A branch link or movable tag is not enough, and the
+submitted commit must stay reachable.
 
-Preserve recorded assessment history permanently. Do not amend, rebase, squash,
-delete, replace, or force-push those commits, move submitted tags, or fabricate
-or backdate progress. Make corrections in new commits. If you accidentally
-commit private information, contact the instructor for an approved correction.
-
-Git records a version's contents; its author dates do not prove when you
-submitted the work, and Git alone does not establish authorship or prevent
-history changes. The pushed README record, its recorded SHA, and the
-instructor-retained snapshot provide the independent assessment reference.
+Never amend, rebase, squash, delete, replace, or force-push recorded assessment
+history, move submitted tags, or fabricate or backdate progress. Correct
+mistakes in new commits, and contact the instructor if you commit private
+information by accident. Git dates do not prove when you submitted. The pushed
+README, its SHA, and the instructor's retained snapshot are the assessment
+reference.
 
 ### Publish after release
 
-After the submission deadline **and when the instructor opens sharing**, publish
-the same submitted commit and its history in your public portfolio. First inspect
-every file in that commit and its reachable ancestors. Every assessment present
-there must have passed its deadline and been released for sharing by the
-instructor. Otherwise keep the repository private and use the submitted private
-snapshot until publication is authorized. Do not rewrite history to remove
-unreleased work. Preserve its SHA when merging from the private work repository.
-Present that version in class, and label any later improvements separately so a reader can distinguish
-the submission from subsequent work.
+After the deadline **and once the instructor opens sharing**, publish the same
+submitted commit with its history in your public portfolio. First check every
+file in that commit and its ancestors. Every assessment in it must be past its
+deadline and released for sharing, otherwise keep the repository private. Do not
+rewrite history to remove unreleased work, and keep the SHA when merging from
+the private repository. Present that version in class and label later
+improvements separately.
 
-Grades and feedback remain private. Where accommodation, safety, privacy,
-copyright, or licensing requires a private portfolio, the syllabus provides an
-equivalent private repository option with the same evidence and rubric.
+Grades and feedback stay private. Where accommodation, safety, privacy,
+copyright, or licensing requires it, the syllabus offers a private portfolio
+with the same evidence and rubric.
 
 ## Collaboration and permitted tools
 
-Discussing concepts is encouraged. Assessed work must demonstrate your own
+Discussing concepts is encouraged, and assessed work must show your own
 understanding. Do not share answers, code, analysis files, answer-producing
-prompts, or solution steps unless written instructions authorize collaboration.
-Ask about your own unreleased solution privately, through Microsoft Teams or
-e-mail to the instructor, rather than in a shared space where classmates read it.
+prompts, or solution steps unless written instructions allow collaboration. Ask
+about your own unreleased solution privately, through Teams or email to the
+instructor.
 
-The syllabus permits generative AI for private study planning and practice,
-provided you check outputs against course sources and protect private or
-copyrighted information. It also permits editing a student-written ungraded
-note when the intellectual work is already the student's.
-
-Generated code, prose, analysis, and figures cannot be submitted for integrated
-lab credit. Generative AI is prohibited for assignments unless the instructions
-expressly authorize a named use, and it is prohibited in examinations. An
-authorized assignment use requires disclosure of the tool, purpose, interaction
-summary, and changes made. Silence in the instructions is not permission.
-Do not upload non-public course or student material to a generative AI service.
-
-See the syllabus for the complete academic integrity policy and the scope of
-any authorized use in an assessment's instructions.
+The syllabus permits generative AI for private study planning and practice, if
+you check outputs against course sources and protect private or copyrighted
+information, and for editing a student-written ungraded note. Generated code,
+prose, analysis, and figures cannot be submitted for lab credit. Generative AI
+is prohibited in examinations and in assignments unless the instructions
+authorize a named use, which must be disclosed with the tool, purpose,
+interaction summary, and changes made. Silence in the instructions is not
+permission. Do not upload non-public course or student material to a generative
+AI service. The syllabus has the complete academic integrity policy.
 
 ## Readings and further study
 
-There is no required paid textbook. The released slides, lecture notes, and
-practical handouts are the starting point for learning the course material.
-Use the reading and documentation links supplied with the corresponding class
-when you need another explanation or more detail about a method.
-
-Optional further reading is identified in the teaching materials. Those texts
-and research examples extend the discussion; they do not create additional
-assessment requirements. Start with the class explanation, then pursue the
-references that address the question you are working on. Check
-[Dalhousie Libraries](https://libraries.dal.ca/) for access before obtaining a
-book.
-
-When studying independently, follow the teaching order and run the examples in
-your chosen language. For an early analysis, concentrate on the variables,
-summaries, plots, and preparation steps introduced so far. Return to that
-analysis as modelling and evaluation methods become available to you.
+There is no required paid textbook. Start from the slides, notes, and handouts,
+and use the reading and documentation links in each class for another
+explanation or more detail. Optional readings and research examples add no
+assessment requirement. Check [Dalhousie Libraries](https://libraries.dal.ca/)
+for access before buying a book. Independent readers should follow the teaching
+order and run the examples in one language.
 
 ## Questions, access, and support
 
-Use the course Microsoft Teams space for class-wide questions about concepts,
-examples, or corrections. Include the document title and page or slide number.
-For a code question, explain what you expected, what happened, and the smallest
-example that shows the issue, while keeping assessed solutions private.
+Ask class-wide questions about concepts, examples, or corrections in the course
+Microsoft Teams space, naming the document and page or slide. For code, say what
+you expected and what happened, and give the smallest example that shows it,
+keeping assessed solutions private.
 
-For individual concerns, contact Prof. Gabriel Spadon at
-[spadon@dal.ca](mailto:spadon@dal.ca) from your Dalhousie email. Office hours are
-by appointment through Microsoft Teams. Independent readers can also email
-questions or corrections.
-
-Contact the instructor early if computer access, a document format, or another
-barrier affects participation. The syllabus links the Student Accessibility
-Centre and other university support services and explains the processes for
-absences and accommodations. Personal circumstances, grades, and feedback
-should be discussed privately.
-
-Enrolled students should check the course repository and their Dalhousie email
-regularly, and follow the announcement channels identified for their offering.
-Meeting locations, office-hour arrangements, and calendar dates should always
-be checked against that offering's syllabus and announcements.
+For individual concerns, email Prof. Gabriel Spadon at
+[spadon@dal.ca](mailto:spadon@dal.ca) from your Dalhousie address. Office hours
+are by appointment through Teams. Independent readers can also email questions
+or corrections. Raise computer access, document format, or other barriers early.
+The syllabus links the Student Accessibility Centre and other university
+supports and explains absences and accommodations. Check your Dalhousie email
+and the course announcements regularly, and confirm dates and locations against
+your offering's syllabus.
 
 ## Sharing and attribution
 
-Unless the instructor explicitly marks material private or restricted, released
-course materials may be shared with credit to the author and CSCI 3141.
-For example, credit a reused course slide to “Gabriel Spadon, CSCI 3141,
-Foundations of Data Science, Dalhousie University” and include a link to the
-source document.
-
-Preserve source links, third-party attributions, and applicable licence terms
-for figures, datasets, code, and quotations. Copyright remains with the
-respective owners. Permission to share course materials does not authorize
-publishing another student's work, restricted data, grades, feedback, or
-instructor-marked private information. Your own assessed work follows the
-portfolio release process above.
+Unless marked private or restricted, released course materials may be shared
+with credit, for example “Gabriel Spadon, CSCI 3141, Foundations of Data
+Science, Dalhousie University”, and a link to the source document. Keep source
+links, third-party attributions, and licence terms for figures, datasets, code,
+and quotations, as copyright stays with their owners. This does not authorize
+publishing another student's work, restricted data, grades, feedback, or private
+instructor material. Your own assessed work follows the portfolio process above.
