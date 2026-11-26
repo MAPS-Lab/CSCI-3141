@@ -107,6 +107,17 @@ Released documents are PDFs that GitHub previews in the browser.
   - [Lecture notes](week-10/Class%20B/class-18-notes.pdf)
   - [Integrated Lab 10 · Explaining models of lakes and seabeds](week-10/Assessment/week-10-lab.pdf)
   - [Assignment 03 · A Descriptive Modelling Solution for Wholesale Client Structure](week-10/Assessment/assignment-03.pdf)
+- Week 11, Class A, *Distance and Clustering Preparation*
+  - [Lecture slides](week-11/Class%20A/class-19-slides.pdf)
+  - [Lecture notes](week-11/Class%20A/class-19-notes.pdf)
+- Week 11, Class B, *Clustering Algorithms and Evaluation*
+  - [Lecture slides](week-11/Class%20B/class-20-slides.pdf)
+  - [Lecture notes](week-11/Class%20B/class-20-notes.pdf)
+  - [Integrated Lab 11 · Testing clusters in plant and seed traits](week-11/Assessment/week-11-lab.pdf)
+- Make-up assessments, in `makeup`
+  - [Make-up Lab 1 · Forecasting river flow and hydroelectric output](makeup/makeup-lab-1.pdf)
+  - [Make-up Lab 2 · Thresholds and costs in wildfire response](makeup/makeup-lab-2.pdf)
+  - [Make-up Assignment 1 · Does a Model of Pipeline Interruptions Survive Deployment?](makeup/makeup-assignment-1.pdf)
 
 Links for the remaining classes and labs are added as they are released.
 
